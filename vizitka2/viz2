@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>vizitka2</title>
+    <link rel="stylesheet" href="dd.css">
+</head>
+<body>
+<div id="container">
+    <div id="header">генератор визиток</div>
+    <div>
+        <input type="type" id="input" placeholder="Введите имя">
+        <input type="type" id="input2" placeholder="Введите фамиию">
+        <input type="type" id="input3" placeholder="Введите телефон">
+        <div class="inner">
+            <button id="convert">готово</button>
+        </div>
+        <p></p>
+        <table border="1" width="100%" cellpadding="5" bgcolor="#adff2f">
+            <tr>
+                <th>ИМЯ</th>
+                <th>ФАМИЛИЯ</th>
+                <th>ТЕЛЕФОН</th>
+            </tr>
+            <tr>
+                <th><input type="text" id="result" disabled></th>
+                <th><input type="text" id="result2" disabled></th>
+                <th><input type="text" id="result3" disabled></th>
+            </tr>
+        </table>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
