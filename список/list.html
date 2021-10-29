@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="list.css">
+<head>
+</head>
+<body style="font-family: Arial, Verdana, sans-serif">
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.6.0.min.js"></script>
+    <div>
+        <ol id="list">
+            <div id="header">список покупок</div>
+            <input type="text" id="field">
+        </ol>
+    </div>
+
+    <script>
+        $("#field").on("keydown", function(event){
+            let item;
+            if(event.which == 13){
+                item = $("<li></li>");
+                item.html($(this).val());
+                $(this).val("");
+                item.on("click", function(){
+                    $(this).remove();
+                });
+                $("#list").append(item);
+            }
+        });
+    </script>
+</body>
+</html>
