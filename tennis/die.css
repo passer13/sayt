@@ -56,6 +56,16 @@ body{
     padding: 150px 0;
     display: block;
 }
+.price{
+    background-color: lightyellow;
+    text-align: center;
+    color: black;
+    padding: 150px 0;
+    display: block;
+}
+.additional_info{
+    padding: 20px;
+}
 .head_black_content{
     padding-bottom: 20px;
     text-align: center;
@@ -149,4 +159,105 @@ h3 {
 h4 {
     text-transform: uppercase;
     font-size: 36px;
+}
+.price-content-head{
+    background: floralwhite;
+    color: black;
+    padding: 40px 0 30px;
+    font-family: 'Segou UI', sans-serif;
+}
+.price-content-head h4{
+    padding-top: 6px;
+    font-size: 24px;
+}
+.price-content-head p{
+    padding-top: 25px;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.price-content-head h5{
+    padding-top: 6px;
+    font-size: 18px;
+}
+.price-content-body{
+    background: mistyrose;
+    padding: 45px 0 40px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
+.price-content-body p{
+    font-size: 14px;
+    padding-bottom: 20px;
+    color: black;
+}
+.price-content-body p span{
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    margin-right: 2px;
+    letter-spacing: 2px;
+}
+.price-content-body a{
+    background: lightpink;
+    color: black;
+    border-radius: 5px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+.price-content:hover{
+    border: 1px solid lightsalmon;
+}
+.price-content:hover .price-content-body>p>span{
+    color: lightsalmon;
+}
+.sinner1{
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin: 3% 0px;
+    background: floralwhite;
+    min-height: 440;
+}
+.sinner1 img{
+    margin: auto;
+}
+.sinner1 a img{
+    display: inherit;
+    width: 20%;
+}
+.sinner1 h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.sinner2{
+    width: 100%;
+    padding: 30px;
+    margin: 3% 0px;
+    text-align: left;
+    background: floralwhite;
+    min-height: 440;
+}
+.sinner2 img{
+    margin: auto;
+}
+.sinner2 a img{
+    display: inherit;
+    width: 20%;
+}
+.sinner2 h4{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.team{
+    margin-bottom: 90px;
+}
+.team bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto{
+    position: absolute;
+    border: 50px;
+    width: 100%;
+    left: -34%;
+}
+.teamslider{
+    align-items: center;
+    display: ;
 }
