@@ -259,5 +259,8 @@ h4 {
 }
 .teamslider{
     align-items: center;
-    display: ;
+    display: flex;
+}
+.partners{
+    width: 40%;
 }
